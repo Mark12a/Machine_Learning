@@ -239,8 +239,8 @@ def verify_res(weight, x_verify, y_verify):
 if __name__ == "__main__":
 	# my-method
 	print("Learning-Rate is {},    num_iter is {}".format(learning_rate, num_iter))
-	train_file_path = "/Users/mark/Desktop/Liner_Regression/train.csv"
-	test_file_path = "/Users/mark/Desktop/Liner_Regression/test.csv"
+	train_file_path = "/Users/mark/Desktop/Machine_Learning/Liner_Regression/train.csv"
+	test_file_path = "/Users/mark/Desktop/Machine_Learning/Liner_Regression/test.csv"
 	train_data, pm2_goal = read_train_csv(train_file_path)
 	X_train, Y_train = tr_data_process(train_data, pm2_goal)
 	x_train, x_verify, y_train, y_verify = train_test_split(X_train, Y_train)
