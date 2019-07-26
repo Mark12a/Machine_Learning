@@ -43,7 +43,6 @@ class Decision_Tree_ID3():
 		y_train = train_dataset[:, train_dataset.shape[1]-1]
 
 
-
 	def gain_info(self, attri_data, cluster_data):
 		pass
 
